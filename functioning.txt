@@ -1,0 +1,14 @@
+USING BURPSUIT FOR MITM
+In order to perform man in the middle attack using burpsuit, we first need to install burp suit in our system.(burpsuit comes inbuilt in kali linux)
+we can install burpsuit from the given website-
+https://portswigger.net/burp/documentation/desktop/getting-started/download-and-install
+
+After installation we need to open burpsuit and then we have to start   NEW PROJECT in it.
+Now we have to select default configurations for the project and then we have to click on START BURP button.
+now we'll select proxy option from the rows of options given above.
+and then we have to check wheather the intercept is turned on or not by clicking on the intercept button.
+Then click on open browser option and thus a new browser will open up.
+
+now each and every request traveling from the browser is captured in the burp suit 
+
+and now we can perform a man in the middle attack by configuring the traffic between the server and the site.\
